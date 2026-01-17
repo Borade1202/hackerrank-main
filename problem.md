@@ -1,35 +1,45 @@
-An extra day is added to the calendar almost every four years as February 29, and the day is called a leap day. It corrects the calendar for the fact that our planet takes approximately 365.25 days to orbit the sun. A leap year contains a leap day.
+# Leap Year Problem
 
-In the Gregorian calendar, three conditions are used to identify leap years:
+## Problem Statement
 
-The year can be evenly divided by 4, is a leap year, unless:
-The year can be evenly divided by 100, it is NOT a leap year, unless:
-The year is also evenly divisible by 400. Then it is a leap year.
-This means that in the Gregorian calendar, the years 2000 and 2400 are leap years, while 1800, 1900, 2100, 2200, 2300 and 2500 are NOT leap years. Source
+An extra day is added to the calendar almost every four years as **February 29**, and the day is called a **leap day**.  
+A year that contains a leap day is called a **leap year**.
 
-Task
+In the **Gregorian calendar**, a year is a leap year if:
 
-Given a year, determine whether it is a leap year. If it is a leap year, return the Boolean True, otherwise return False.
+- The year is evenly divisible by **4**, **unless**
+- The year is evenly divisible by **100**, in which case it is **not** a leap year, **unless**
+- The year is also evenly divisible by **400**, then it **is** a leap year
 
-Note that the code stub provided reads from STDIN and passes arguments to the is_leap function. It is only necessary to complete the is_leap function.
+---
 
-Input Format
+## Task
 
-Read , the year to test.
+Given a year, determine whether it is a leap year.
 
-Constraints
+- Return **True** if the year is a leap year  
+- Return **False** otherwise
 
+---
 
-Output Format
+## Input Format
 
-The function must return a Boolean value (True/False). Output is handled by the provided code stub.
+- A single integer representing the year
 
-Sample Input 0
+---
 
-1990
-Sample Output 0
+## Output Format
 
-False
-Explanation 0
+- A Boolean value (`True` or `False`)
 
-1990 is not a multiple of 4 hence it's not a leap year.
+---
+
+## Constraints
+
+- The year is a positive integer
+
+---
+
+## Example
+
+### Sample Input
