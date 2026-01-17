@@ -1,5 +1,5 @@
-# Print Consecutive Integers
-
+# Print Consecutive Integers 
+https://www.hackerrank.com/challenges/python-print/problem?isFullScreen=true
 ## Problem Statement
 
 The included code stub reads an integer **n** from standard input (STDIN).
